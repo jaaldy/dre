@@ -15,7 +15,7 @@ async function login() {
     // Menghapus status dengan mengatur status ke "idle" tanpa aktivitas
     client.user.setPresence({
       activities: [],
-      status: 'invisible', // Pilihan: 'online', 'idle', 'dnd', atau 'invisible'
+      status: 'online', // Pilihan: 'online', 'idle', 'dnd', atau 'invisible'
     });
 
     console.log('\x1b[33m[ STATUS ]\x1b[0m', 'Bot status cleared.');
